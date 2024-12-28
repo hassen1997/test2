@@ -1,0 +1,50 @@
+.foter{
+    margin: 100px 30px;
+    color: white;
+    background-color: #7D4283;
+    padding: 100px 80px;
+    width: 95%;
+    height: 130vh;
+}
+.foter h1{
+    font-size: 37px;
+    font-weight: bold;
+}
+.foter p{
+    width: 450px;
+}
+
+.foter-inp {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.foter-inp input{
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+}
+.foter-inp button{
+    background-color: #000;
+    padding: 10px;
+    border-radius: 50px;
+}
+.foter-end{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.foter-end img{
+    width: 100px;
+    height: 40px;
+}
+.icon{
+    background-color: #ffffff57;
+    padding: 0px;
+    border-radius: 20px;
+    width: 10px;
+}
+
+.icon-all{
+    width: -10px;
+}

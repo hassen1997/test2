@@ -1,0 +1,15 @@
+.smp{
+    margin: 160px 30px ;
+    display: flex;
+    justify-content: space-between;
+}
+.smp-text h1{
+    color: white;
+    font-weight: bold;
+    font-size: 37px;
+    width: 400px;
+}
+.smp-text p{
+    color: #646A69;
+    width: 400px;
+}

@@ -1,0 +1,23 @@
+.about{
+    position: relative;
+    text-align: center;
+    top: -100;
+    color: white;
+  
+}
+.about h1{
+    font-size: 27px;
+    
+  
+
+}
+
+.about button{
+    border:1px solid #7D4283;
+    color: #7D4283;
+    padding: 0px;
+    height: 35px;
+    width: 120px;
+    border-radius: 20px;
+}
+

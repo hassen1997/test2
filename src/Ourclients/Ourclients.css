@@ -1,0 +1,38 @@
+.Our-clients{
+    margin: 70px 30px;
+    background-color: #7D4283;
+    padding: 10px;
+    width: auto;
+    height: 100vh;
+    text-align: center;
+}
+.Our-clients h1{
+    font-weight: bold;
+    font-size: 37px;
+    color: white;
+}
+
+.swiper {
+    width: 100%;
+    height: 60%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background:#7D4283;
+    /* Center slide text vertically */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+   
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+  }
+  

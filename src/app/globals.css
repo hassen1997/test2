@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #000;
   --foreground: #171717;
 }
 
@@ -19,3 +19,249 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+@media (max-width:896px) {
+  .App{
+    display: flex;
+    flex-wrap: wrap;
+    width: 245%
+  }
+  .pag1-img {
+    display: none;
+    width: min-content;
+   
+}
+
+.pag-h1 {
+
+  max-width: 215%;
+  text-align: center;
+  font-size: 300px;
+  margin-left: 475px;
+  font-weight: bolder;
+}
+.nav-bt {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 100px;
+  flex-direction: column;
+}
+
+.about {
+  min-width: max-content;
+  margin-left: 26px;
+  font-size: 39px;
+}
+
+.about button{
+  min-width: -webkit-fill-available;
+  min-height: min-content;
+  margin-left: 62px;}
+
+.Ourservices {
+  font-size: xxx-large;
+  margin-left: 714px;
+  width: 325px
+}
+.Ourservices h1 {
+  font-weight: bold;
+  font-size: 27px;
+}
+.Ourservices-img {
+  padding-left: 100px;
+}
+
+.pag1-p{
+  margin-left: 640px;
+  font-size: xx-large;
+}
+
+.pag1-imge{
+  width: min-content;
+}
+.btn-joi {
+  min-width: 515%;
+  min-height: 171px;
+  font-size: -webkit-xxx-large;
+  margin-left: 92px;
+}
+
+.all-news{
+margin-left: 315px;;
+}
+.btn-contac{
+  background-color: #000;
+  min-width: 442%;
+  min-height: 117px;
+  font-size: -webkit-xxx-large;
+  margin-left: -126px;
+}
+
+.our{
+  width: 100px;
+  min-width: 1721px;
+  min-height: 543px;
+}
+.our h1{
+  font-size: -webkit-xxx-large;
+
+}
+
+.nav-lest{
+  display: none;
+}
+.pag-all-p{
+  text-align: center;
+  padding-left: 598px;
+  gap: 134px;
+  font-size: -webkit-xxx-large;
+  font-weight: bold;
+}
+.pag-p h1{
+  
+}
+.news{
+  width: 256px;
+}
+.smp{
+  flex-direction: column;
+  gap: 70px;
+  padding-left: 562px;
+  font-size: -webkit-xxx-large;
+}
+.news-1{
+  padding-left: 170px;}
+  .Our-clients{
+    max-width:  1689px;
+    }
+    .foter-inp {
+   flex-direction: column;
+  }
+
+  .foter-inp button {
+    width: 818px;
+    height: 103px;
+    font-size: -webkit-xxx-large;
+  }
+
+  .foter-inp input{
+
+    width: 818px;
+    height: 103px;
+    font-size: -webkit-xxx-large;
+    text-align: center;
+
+  }
+  .foter{
+    text-align: center;
+    min-width:  1669px;
+    min-height: max-content;
+  }
+
+  .foter h2{
+    font-size: 60px;
+  }
+
+  .foter-end {
+
+    flex-flow: column;
+    
+    flex-wrap: wrap;
+}
+
+
+.Net{
+  display: flex;
+  gap: 10px;
+  display: flex
+  ;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 1569px;
+}
+
+.pip-1{
+
+  font-size: -webkit-xxx-large;
+  margin-top: 4404px;
+  width: inherit;
+}
+
+.p-1{
+  background-color: #7D4283;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}
+.p-2{
+  background-color: #F3722C;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}
+
+.pip-2{
+ 
+  margin-top: 4404px;
+  margin-left: 369px;
+  font-size: -webkit-xxx-large;
+  width: inherit;
+  gap: 20px;
+}
+
+.p-3{
+  background-color: #F8961E;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}
+
+.pip-3{
+  margin-top: 4404px;
+  margin-left: 489px;
+  font-size: -webkit-xxx-large;
+  width: inherit;
+  gap: 20px;
+}
+
+.p-4{
+  background-color: #F3722C;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}
+
+.pip-4{
+  margin-top: 5105px;
+  width: max-content;
+  /* gap: 20px; */
+  margin-right: -420px;
+  font-size: -webkit-xxx-large;
+}
+
+.pip-5{
+  margin-top: 5105px;
+  width: max-content;
+  font-size: -webkit-xxx-large;
+
+}
+
+.p-5{
+  background-color: #7D4283;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}
+.pag3{
+  min-width: 1653px;
+  font-size: 73px;
+}
+  
+  
+}
+
+
+

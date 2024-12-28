@@ -1,0 +1,34 @@
+.pag3{
+    color:white;
+    margin: 10px 30px;
+    border-Bottom:2px solid #8b8d8c;
+    width: 97%;
+    padding-bottom: 20px;
+}
+.not{
+    background-color: white;
+    width:15px;
+    height: 15px;
+    border-radius: 100%;
+    
+}
+
+.pag-all-p{
+    margin: 10px 30px;
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pag-number{
+    color:white
+}
+
+.pag-number-1 h1{
+    font-size: 37px;
+}
+.pag-number-1{
+    text-align: center;
+}

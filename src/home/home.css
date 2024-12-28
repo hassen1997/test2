@@ -1,0 +1,83 @@
+/* Base Styles */
+.home {
+    color: white;
+    margin: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .home img {
+    width: 110px;
+    height: 40px;
+  }
+  .nav-lest {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+  }
+  .nav-btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .btn-contact {
+    border: 2px solid white;
+    padding: 0px;
+    height: 35px;
+    width: 120px;
+    border-radius: 50px;
+  }
+  .btn-join {
+    background-color: #7d4283;
+    padding: 0px;
+    height: 35px;
+    width: 120px;
+    border-radius: 50px;
+  }
+
+  .nav-bt {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .btn-contac {
+    border: 2px solid white;
+    padding: 0px;
+    height: 35px;
+    width: 120px;
+    border-radius: 50px;
+  }
+  .btn-joi {
+    background-color: #7d4283;
+    padding: 0px;
+    height: 35px;
+    width: 120px;
+    border-radius: 50px;
+  }
+  .bars {
+    display: flex;
+    align-items: center;
+    gap: 764px;
+    flex-direction: row-reverse;
+  }
+  .icon {
+    display: none;
+  }
+  
+  /* Responsive Styles for Mobile */
+  @media (max-width: 768px) {
+    .nav-lest,
+    .nav-btn {
+      display: none;
+    }
+  
+    .icon {
+      display: block;
+      font-size: 24px;
+      width: 71px;
+      color: white;
+      cursor: pointer;
+    }
+  }
+  
